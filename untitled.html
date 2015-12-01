@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bird's-Eye</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  
+  <body>
+    <div id='title'>Stadium Birds-Eye View</div>
+    <div id="map"></div>
+
+   <div>      
+      <form id="addMascot">
+        <label for="mascot">Select Team:</label>
+          <select id='team' name="Mascot">
+           <option value="">---</option>
+           <option value="CHI">Bears</option>
+           <option value="CIN">Bengals</option>
+           <option value="BUF">Bills</option>
+           <option value="DEN">Broncos</option>
+           <option value="CLE">Browns</option>
+           <option value="TB">Bucaneers</option>
+           <option value="AZ">Cardinals</option>
+           <option value="SD">Chargers</option>
+           <option value="KC">Chiefs</option>
+           <option value="IND">Colts</option>
+           <option value="DAL">Cowboys</option>
+           <option value="MIA">Dolphins</option>
+           <option value="PHI">Eagles</option>
+           <option value="ATL">Falcons</option>
+           <option value="NYG">Giants</option>
+           <option value="JAX">Jaguars</option>
+           <option value="NYJ">Jets</option>
+           <option value="DET">Lions</option>
+            <option value="SF">Niners</option>
+           <option value="GB">Packers</option>
+           <option value="CAR">Panthers</option>
+           <option value="NE">Patriots</option>
+           <option value="OAK">Raiders</option>
+           <option value="STL">Rams</option>
+           <option value="BAL">Ravens</option>
+           <option value="WASH">Redskins</option>
+           <option value="NO">Saints</option>
+           <option value="SEA">Seahawkds</option>
+           <option value="PIT">Steelers</option>
+           <option value="HOU">Texans</option>
+           <option value="TEN">Titans</option>
+           <option value="MIN">Vikings</option>
+          </select>
+      </form>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqm0MPLN9hUM0oWJSLBNGCCELDeFkzx4A&callback=initMap"async defer></script>
+    <script type="text/javascript" src="js/map.js"></script>
+  
+  </body>
+
+</html>
