@@ -29,7 +29,7 @@ function initMap() {
 		{abbr: 'PHI', name: "Lincoln Financial Field", address:'1 Lincoln Financial Field Way, Philadelphia, PA 19147', lat:39.900990, lng:-75.167411},
 		{abbr: 'ATL', name: "Georgia Dome", address:'1 Georgia Dome Dr, Atlanta, GA 30313', lat:33.757984, lng:-84.400807},
 		{abbr: 'NYG', name: "MetLife Stadium", address:"1 MetLife Stadium Dr, East Rutherford, NJ 07073", lat:40.813075, lng:-74.074134},
-		{abbr:'JAX', name:"Everank Field", address:"1 Everbank Field Dr, Jacksonville, FL 32202", lat:30.324212, lng:-81.637277},
+		{abbr:'JAX', name:"EverBank Field", address:"1 Everbank Field Dr, Jacksonville, FL 32202", lat:30.324212, lng:-81.637277},
 		{abbr: 'NYJ', name: "MetLife Stadium", address:"1 MetLife Stadium Dr, East Rutherford, NJ 07073", lat:40.813075, lng:-74.074134},
 		{abbr: 'DET', name:"Ford Field", address:"2000 Brush St, Detroit, MI 48226", lat:42.340276, lng:-83.045528},
 		{abbr: 'SF', name:"Levi's Stadium", address:"4900 Marie P Bartolo Way, Santa Clara, CA 95054", lat:37.404171, lng:-121.969490},
