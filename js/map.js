@@ -103,6 +103,17 @@ function initMap() {
  		 });
 
 	}
+
+	document.getElementById('refresh').onclick = refreshMap
+
+	function refreshMap() {
+		//alert('hi');
+		location.reload ();
+	}
 }
 
+// document.getElementById('refresh').onClick = refreshMap
 
+// function refreshMap() {
+// 	alert('hi');
+// }

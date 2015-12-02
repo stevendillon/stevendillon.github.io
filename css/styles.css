@@ -21,7 +21,13 @@ html, body {
 
 #addMascot{
 	padding-top:15px;
+	padding-bottom: 15px;
 	height:10%;
+	float: right;
+	margin-right: 7%;
+}
+
+#refresh {
 	float: right;
 	margin-right: 7%;
 }
@@ -29,4 +35,10 @@ html, body {
 label{
 	font-size: 18;
 	font-weight: bold;
+}
+
+p {
+	padding: 0px;
+	margin-top: 0px;
+	text-align: center; 
 }
